@@ -1,0 +1,21 @@
+package taller_clase_23;
+
+class punto23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int numero=500;
+		
+		for(int i=1;i<=500;i++) {
+			
+			if(i % 4 == 0) {
+				
+				System.out.println(i);
+			}
+		}
+		
+	}
+
+}

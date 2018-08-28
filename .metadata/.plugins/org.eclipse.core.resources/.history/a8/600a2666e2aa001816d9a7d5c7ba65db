@@ -1,0 +1,28 @@
+package taller_clase_23;
+
+class punto23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int serie;
+		String cadena;
+		int numero=500;
+		
+do{
+			
+			cadena=cadena.numero(String.valueOf(serie) + "  ");	
+			cont --;	
+			if(sumar==true){		
+				serie+=4;
+			}else{		
+				serie-=2;
+			}
+			
+			sumar=!sumar;
+		}while(cont>0);
+		
+		System.out.println(cadena);
+	}
+
+}
