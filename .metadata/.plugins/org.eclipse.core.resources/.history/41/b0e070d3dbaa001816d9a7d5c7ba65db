@@ -1,0 +1,32 @@
+package taller_clase_1;
+import java.util.Scanner;
+class punto1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		Scanner sc = new Scanner(System.in);
+		
+		int a,b,c;
+		
+		System.out.println("ingrese el lado de A del triangulo: ");
+		a = sc.nextInt();
+		
+		System.out.println("ingrese el lado de B del triangulo: ");
+		b = sc.nextInt();
+		
+		System.out.println("ingrese el lado de C del triangulo: ");
+		c = sc.nextInt();
+		
+		sc.close();
+		
+		int s,area;
+		
+		s=(a+b+c)/2;
+		
+		area=
+		
+		System.out.println("");
+	}
+
+}
